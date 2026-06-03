@@ -59,7 +59,64 @@ plt.show()
 ```
 
 ## numpy
-stuff
+The point of this activity is to familiarize your team with the basic matrix and vector structures and operations in `numpy`. It will also begin to give you more experience in making function calls and using a module. You will do this by going through the `numpy` tutorial as a team, and making some small modifications along the way.
+
+1. First go to the [`numpy` home page](http://www.numpy.org/), then click on "Learn" (at the top). The "NumPy Quickstart Tutorial" shows several commands in the context of an interactive python interpreter. Your team should have one team member share their screen and try entering and modifying the code described below for everyone to see. Each team member may want to read the documentation as you work through the examples together.
+2. As a team, work through parts of the tutorial (listed in 3. below). For each part, your team should do the following:
+   1. If there is text, read it, and check to make sure that everyone understands it. For any code in a section, do parts ii-v below.
+   2. Write the code in your own IDE and execute it. You will probably need to add in print statements to print out values of variables that are shown automatically in the interactive view.
+   3. Verify that the output is what you expect – that the arrays are created correctly and the values are computed.
+   4. Make some modification to the code (e.g. to the entries of a matrix) and rerun to make sure you see how the various functions behave.
+   5. Ask everyone in the group if they follow what has happened in that section. Do not go on until each person states that they understand.
+      - If some team members do not understand, others should help explain the topics.
+      - If all of you are stuck, or need help, ask a member of the teaching team.
+   6. Then, go on to the next section.
+3. The parts of the tutorial to work through (there is a "Table of Contents" on the right side of the page) are:
+   - The Basics – An example
+   - The Basics – Array Creation
+   - The Basics – Printing Arrays
+   - The Basics – Basic Operations
+   - The Basics – Universal Functions
+   - Shape Manipulation – Changing the shape of an array
+   - (Optional) Check out NumPy: the absolute basics for beginners (in the left menu) for a more detailed explanation of concepts
+4. At the end, each person on the team should understand how to create arrays of various sizes, how to perform basic linear algebra operations (calculate dot product or do matrix multiplication), and how to use mathematical functions on an array.
+5. Finally, to demonstrate that your team understands how this process works, create a program named `numpy_example.py` that does the following:
+   1. Start your program with the following statement in comments after the header:
+   ```
+   # As a team, we have gone through all required sections of the 
+   # tutorial, and each team member understands the material
+   ```
+	 2. Create 3 matrices, $$A$$, $$B$$, and $$C$$, of size 3x4, 4x2, and 2x3, respectively. For each matrix, have the first element be zero (0), and increase each subsequent element by one (1). Print each of these matrices with a single blank line in between.
+	 3. Compute the product $$D=ABC$$ and print the resulting matrix and a blank line. (Note: this is **matrix multiplication** not simple elementwise multiplication.)
+	 4. Print the transpose of $$D$$ and a blank line.
+   5. Calculate and print $$E=\sqrt{D}/2$$.
+
+Example output:
+```
+A = [[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]]
+
+B = [[0 1]
+ [2 3]
+ [4 5]
+ [6 7]]
+
+C = [[0 1 2]
+ [3 4 5]]
+
+D = [[ 102  164  226]
+ [ 294  468  642]
+ [ 486  772 1058]]
+
+D^T = [[ 102  294  486]
+ [ 164  468  772]
+ [ 226  642 1058]]
+
+E =  [[ 5.04975247  6.40312424  7.51664819]
+ [ 8.5732141  10.81665383 12.66885946]
+ [11.02270384 13.89244399 16.26345597]]
+```
 
 ## matplotlib
 stuff
