@@ -144,13 +144,19 @@ Create the following plots:
 	 
 $$y=\frac{1}{4f}x^2$$
 
-Write the Python code to plot two parabolas as lines on the same plot for the domain $$-2≤x≤2$$ for $$f=2$$ and $$f=6$$. Choose different colors for each line. Make the line for $$f=6$$ width of 6 and the line for $$f=2$$ width of 2.</li>
+Write the Python code to plot two parabolas as lines on the same plot for the domain $$-2≤x≤2$$ for $$f=2$$ and $$f=6$$. Choose different colors for each line. Make the line for $$f=6$$ width of 6 and the line for $$f=2$$ width of 2.
+
+![plot of two parabolas](lab12t_plot1.png)</li>
  <li>Write the Python code to plot ($$x,y$$) points for the cubic polynomial
 
 $$y=2x^3+3x^2-11x-6$$
 
-for the domain $$-4≤x≤4$$. Twenty-five (25) data points were used for the plot below.</li>
- <li>Write the Python code to plot $$\sin⁡(x)$$ and $$\cos⁡(x)$$ using two subplots with different color lines for the domain $$-2π≤x≤2π$$. Display a grid on both plots.</li>
+for the domain $$-4≤x≤4$$. Twenty-five (25) data points were used for the plot below.
+
+![plot of cubic polynomial](lab12t_plot2.png)</li>
+ <li>Write the Python code to plot $$\sin⁡(x)$$ and $$\cos⁡(x)$$ using two subplots with different color lines for the domain $$-2π≤x≤2π$$. Display a grid on both plots.
+ 
+ ![plot of sin(x) and cos(x)](lab12t_plot3.png)</li>
 </ol>
 
 ## Frequently Asked Questions
