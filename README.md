@@ -31,14 +31,19 @@ and try to run this program. If the program runs without an issue (no errors), t
   <ul>
   <li>Run the single line of code <code>import numpy</code> or <code>import matplotlib</code></li>
   <li>If the code runs without an error, the packages are already installed and you don’t need to do anything!</li>
-  <li>You will get an error message if you don’t have them installed:</li></ul>
+  <li>You will get an error message if you don’t have them installed:</li>
+  <li><img alt="example of error message if you don't have numpy installed, ModuleNotFoundError" src="numpy_modulenotfound.png" /></li></ul>
 <li>In the terminal run the command <code>pip install numpy</code></li>
   <ul>
-  <li>Wait for it to finish, it should end with <code>Successfully installed...</code></li></ul>
+  <li><img alt="example of typing pip install numpy in the terminal" src="numpy_installnumpy.png" /></li>
+  <li>Wait for it to finish, it should end with <code>Successfully installed...</code></li>
+  <li><img alt="example of numpy successfully installed" src="numpy_installed.png" /></li></ul>
 <li>In the terminal run the command <code>pip install matplotlib</code></li>
   <ul>
+  <li><img alt="example of typing pip install matplotlib in the terminal" src="numpy_installmatplotlib.png" /></li>
   <li>Wait for it to finish</li>
-  <li>There may be a lot of output on this one, but it should end with <code>Successfully installed...</code></li></ul>
+  <li>There may be a lot of output on this one, but it should end with <code>Successfully installed...</code></li>
+  <li><img alt="example of matplotlib successfully installed" src="numpy_mplinstalled.png" /></li></ul>
 <li>Verify it worked by rerunning the code from step 2</li>
 <li>Celebrate by plotting stuff!</li>
 </ol>
