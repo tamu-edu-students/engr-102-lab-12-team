@@ -119,7 +119,39 @@ E =  [[ 5.04975247  6.40312424  7.51664819]
 ```
 
 ## matplotlib
-stuff
+The purpose of this activity is for your team to review some of the capabilities of `matplotlib`, get practice learning how to find the parameter settings for various graphs, and make a few plots. **As a team**, create three (3) different plots described below. The expectation is that you will all work together to ensure everyone knows how to handle different aspects of the process.
+
+1. First go to the [`matplotlib` website](https://matplotlib.org/). Similar to what was done with Activity #1, you should work through the code provided on this page for training.
+   1. Click on "Tutorials" (at the top) and then select "Pyplot tutorial". Your team should go through the tutorial, as was done for `numpy` in Activity #1.
+   2. You can also check out the "Examples" page to see a range of examples of plots that can be produced.
+   3. Do not do more until everyone has followed the tutorial, and agreed that they understand it, and that the group has briefly looked at several examples.
+2. There are several sections that are a bit beyond what we need to learn. For this week, you should learn how to accomplish the following tasks:
+   1. Create a figure.
+   2. Plot numerical data (this includes plotting multiple sets of data on the same figure).
+   3. At a minimum, label the figure with a title, x-axis label, and y-axis label.
+   4. Control the x- and y-axis scale values.
+   5. Create a legend.
+   6. Control the width, color, and style of a plotted line.
+   7. Control the width, color, and shape of plotted points.
+   8. Create subplots within a single figure.
+3. **As a team**, create a program named `matplotlib_example.py` that produces the three (3) plots described below (on separate plots). **Include the same statement in comments as you did in Activity #1.** Each plot should include the plotted data, a meaningful title to describe the data, labels for the x- and y- axes, and a legend when plotting two (2) or more things. Feel free to change the colors, markers, and line styles, unless otherwise noted. *This activity will be manually graded.*
+
+**Useful hint:** to establish an array of x-values, check out `numpy.linspace()`.
+
+Create the following plots:
+<ol>
+ <li>One equation for a parabola is given below in terms of its focal length ($$f$$):
+	 
+$$y=\frac{1}{4f}x^2$$
+
+Write the Python code to plot two parabolas as lines on the same plot for the domain $$-2≤x≤2$$ for $$f=2$$ and $$f=6$$. Choose different colors for each line. Make the line for $$f=6$$ width of 6 and the line for $$f=2$$ width of 2.</li>
+ <li>Write the Python code to plot ($$x,y$$) points for the cubic polynomial
+
+$$y=2x^3+3x^2-11x-6$$
+
+for the domain $$-4≤x≤4$$. Twenty-five (25) data points were used for the plot below.</li>
+ <li>Write the Python code to plot $$\sin⁡(x)$$ and $$\cos⁡(x)$$ using two subplots with different color lines for the domain $$-2π≤x≤2π$$. Display a grid on both plots.</li>
+</ol>
 
 ## Frequently Asked Questions
 1. **What's the difference between elementwise product and matrix product?** Elementwise product is the math you're used to: multiply the values in one matrix by the values in the same index location in another matrix. Matrix product (or [matrix multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication)) is fancy matrix math that you will learn in a linear algebra class. You don't have to understand it right now, just know that you need to use the `@` symbol to get NumPy to do it.
@@ -132,7 +164,7 @@ Type `quit()` to return to normal.
 
 4. **Matplotlib has a lot of stuff. How much do I have to memorize?** Very little! My personal philosophy is that when you eventually need to make nice plots of data, you will have access to Matplotlib's website to look up everything you need. In grad school and my previous job, I used to spend time coding up a nice plot, then save the code to reuse with future data. Code once and reuse over and over again. I expect you to be able to read code that uses the basics of Matplotlib (like the stuff in the tutorial), but nothing fancy.
 
-5. **How do I do XXX in Matplotlib?** My advice: look at the examples on Matplotlib's website, find one that does what you want to do, click on it and look at the code. Try clicking on some of the lines of code for more information on what it does. Also check out [Matplotlib's handouts](https://matplotlib.org/cheatsheets/) and [my example video](https://tamu.video.yuja.com/V/Video?v=16309822&node=69581067&a=62181216).
+5. **How do I do XXX in Matplotlib?** My advice: look at the examples on Matplotlib's website, find one that does what you want to do, click on it and look at the code. Try clicking on some of the lines of code for more information on what it does. Also check out [Matplotlib's handouts](https://matplotlib.org/cheatsheets/) and [an example video](https://tamu.video.yuja.com/V/Video?v=16309822&node=69581067&a=62181216).
 
 Have a question you don't see here? Email your instructor!
 
