@@ -52,7 +52,7 @@ and try to run this program. If the program runs without an issue (no errors), t
 import numpy as np
 import matplotlib.pyplot as plt
 from random import randint
-for i in range(229):
+for i in range(2030):
     plt.plot(randint(1,100), randint(1,100), marker=(5,1,randint(0,360)), color='w', markeredgecolor='maroon')
 plt.axis('off')
 plt.show()
