@@ -14,7 +14,44 @@ This week's team and individual assignments are meant to familiarize you with tw
 2. [matplotlib](#matplotlib)
 
 ## Check for package installation
-While
+Both of these may already be installed on your system depending on what distribution of Python you downloaded. If you do not have `numpy` or `matplotlib`, follow the instructions below. You should first check to ensure they are installed on your system.
+
+Create a program with two lines of code:
+```python
+import numpy
+import matplotlib
+```
+
+and try to run this program. If the program runs without an issue (no errors), then you have both packages installed. If you get an error, then at least one is not installed. You may need to ask for help in getting this to run.
+
+### How to install `numpy` and `matplotlib` with VS Code
+<ol>
+<li>Open VS Code</li>
+<li>Verify you don’t have NumPy or Matplotlib installed</li>
+  <ul>
+  <li>Run the single line of code <code>import numpy</code> or <code>import matplotlib</code></li>
+  <li>If the code runs without an error, the packages are already installed and you don’t need to do anything!</li>
+  <li>You will get an error message if you don’t have them installed:</li></ul>
+<li>In the terminal run the command <code>pip install numpy</code></li>
+  <ul>
+  <li>Wait for it to finish, it should end with <code>Successfully installed...</code></li></ul>
+<li>In the terminal run the command <code>pip install matplotlib</code></li>
+  <ul>
+  <li>Wait for it to finish</li>
+  <li>There may be a lot of output on this one, but it should end with <code>Successfully installed...</code></li></ul>
+<li>Verify it worked by rerunning the code from step 2</li>
+<li>Celebrate by plotting stuff!</li>
+</ol>
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from random import randint
+for i in range(229):
+    plt.plot(randint(1,100), randint(1,100), marker=(5,1,randint(0,360)), color='w', markeredgecolor='maroon')
+plt.axis('off')
+plt.show()
+```
 
 ## numpy
 stuff
